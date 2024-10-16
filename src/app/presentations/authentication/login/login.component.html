@@ -1,0 +1,28 @@
+<div class="container">
+<div class="img">
+    <img src="/images/bg.svg">
+  </div>
+  <div class="login-content">
+    <form [formGroup]="profileForm"  id="form" (ngSubmit)="login()">
+      <img src="/images/avatar.svg">
+      <h2 class="title">Se connecter</h2>
+      <div class="input-div one">
+        <div class="i">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="div">
+          <input type="email" name="" placeholder="Email" formControlName="email">
+        </div>
+      </div>
+      <div class="input-div pass">
+        <div class="i">
+        </div>
+        <div class="div">
+          <input type="password" name="" id="" placeholder="Password" formControlName="password">
+        </div>
+      </div>
+      <a href="#">Mot de passe oublier?</a>
+      <button class="btn text-center" type="submit" >Se connecter</button>
+    </form>
+  </div>
+</div>

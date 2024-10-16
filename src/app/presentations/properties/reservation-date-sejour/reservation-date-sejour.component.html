@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="content border">
+    <div class="text-center">
+      <h2>Date de sejour</h2>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <label>Debut</label>
+            <input type="date" name="dateDebut" id="dateDebut" class="form-control" >
+          </div>
+          <div class="col">
+            <label>Fin</label>
+            <input type="date" name="dateFin" id="dateFin" class="form-control" >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-5">
+      <a [routerLink]="['/infos-custumer']" class="btn btn-outline-dark mb-2">Retour</a>
+      <a [routerLink]="['/paiement']" class="btn btn-success">Suivant</a>
+    </div>
+  </div>
+</div>

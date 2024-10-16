@@ -1,0 +1,35 @@
+<div class="container">
+ <div class="content border">
+   <div class="text-center">
+     <h2>Informations du client</h2>
+   </div>
+   <div class="row">
+     <div class="col">
+       <label>Nom</label>
+       <input type="text" name="firstname" id="firstname" class="form-control">
+     </div>
+   </div>
+   <div class="row">
+     <div class="col">
+       <label>Prenom</label>
+       <input type="text" name="lastname" id="lastname" class="form-control" >
+     </div>
+   </div>
+   <div class="row">
+     <div class="col">
+       <label>Email</label>
+       <input type="email" name="email" id="email" class="form-control" >
+     </div>
+   </div>
+   <div class="row">
+     <div class="col">
+       <label>Date de naissance</label>
+       <input type="date" name="birthday" id="birthday" class="form-control" >
+     </div>
+   </div>
+   <div class="row p-5">
+     <a [routerLink]="['/details-residence' , 1]" class="btn btn-outline-dark mb-2">Retour</a>
+     <a [routerLink]="['/date-sejour']" class="btn btn-success">Suivant</a>
+   </div>
+ </div>
+</div>

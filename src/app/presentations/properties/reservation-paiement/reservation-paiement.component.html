@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="content border">
+    <div class="text-center">
+      <h2>Paiement</h2>
+    </div>
+    <div class="row">
+      <div class="col p-5 text-center">
+        <h5 class="font-weight-bold">montant a payer: <strong>30.000CFA</strong></h5>
+        <p>
+          Residence Nabil , 6 chambres , 1 salle de bain , 1 salon , 1 salle de jeux
+        </p>
+      </div>
+      <div class="col p-5">
+        <img src="/images/wave.png" style="width: 200px">
+      </div>
+    </div>
+
+    <div class="row p-3 mt-2">
+      <div class="col">
+        <label>ID de la transaction</label>
+        <input type="text" name="idtransaction" id="idtransaction" class="form-control">
+      </div>
+    </div>
+
+    <div class="row p-5">
+      <a [routerLink]="['/date-sejour']" class="btn btn-outline-dark mb-2">Retour</a>
+      <a [routerLink]="['/accueil']" class="btn btn-success">Valider</a>
+    </div>
+  </div>
+</div>
